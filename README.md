@@ -21,12 +21,7 @@ git clone git@github.com:J28819/06WheaterApp.git
 
 ## Description
 
-- Work Scheduler as To-Do List, write your activities and plan your day.
-- Press the Plus Button to add one more row.
-- Time overdue change the color for Past, Present and Future
-- Information is autogeneretaed by JSOn Objects.
-- Page is responsive to be adjusted in automatic for movile devices
-- Future Implementation add more days and storage them in Local.
+-App description
 
 
 
@@ -35,7 +30,7 @@ git clone git@github.com:J28819/06WheaterApp.git
 
 ## Screenshoots
 
-![My animated logo](./Assets/readme-pics/overviewv1.2.png)
+![My animated logo](./assets/readmepics/overview.png)
 
 ## Conclusion 
 
