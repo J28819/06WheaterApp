@@ -1,26 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <title>J28819/WeatherApp</title>
-
-
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="./Assets/css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+ 
 </head>
+<section class="container-fluid">
+    <h2>J28819/WeatherApp</h2>
+    <p>Weather Application by City</p>
+</section >
 <body>
 
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sidenav">
+      <h4>Chose the city to display the Weather</h4>
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Type here your City">
+        <span class="input-group-btn">
+          <button class="btn btn-default" type="button">
+            <span class="glyphicon glyphicon-search"></span>
+          </button>
+        </span>
+      </div>
+      <hr>
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="#section1">City</a></li>
+        <li><a href="#section2">New York</a></li>
+        <li><a href="#section3">Atlanta</a></li>
+        <li><a href="#section3">Texas</a></li>
+      </ul><br>
+    
+    </div>
+ 
+    <div class="col-sm-9">
+      <div class="row">
+        <div class="container">
+         
+          <hr>
+          <div class="row">
+            <div class="col-md-8 card-tops">
+              <h2><small>  New York</small></h2>
+              <hr>
+              <iframe width="100%" height="100" src="//www.teleport.io/feed-player?playmode=livetimelapse" frameborder="0" allowfullscreen></iframe>
+                <hr>
+                <div class=""><i class='fa fa-cloud' style='font-size:36px'></i></div>
+                <div class="card-body" >
+                  <h5 class="card-title text-left">Actual Temp: 32 C</h5>
+                  <h5 class="card-title text-left">Min. 19 C</h5>
+                  <h5 class="card-title text-left">Max. 36 C</h5>
+                  <hr>
+                  <h5 class="card-title text-left">Cloudy</h5>
+                  <hr>
+                </div>
+              </div>
+            
+            
 
-
+          </div>
+        </div>
+     
+      
+      <hr>
+      <h2>5 Days Forecast</h2>
+      <h4>June 05 07</h4>
+    </div>
 
     
+     
+   
+    <i class="fa fa-cloud" aria-hidden="true"></i>\
+    <i class="fa fa-sun-o" aria-hidden="true"></i>\
+    <i class="fa fa-snowflake-o" aria-hidden="true"></i>\
+    <i class="fa fa-tint" aria-hidden="true"></i>
+
+
+      <br><br>
+      <div class="row">
+
+      <div class="col-sm-2">
+        <h5 class="card-title text-center">Wed Jun 8</h5>
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="./assets/img/sunny.png" alt="Card image cap" width="173px" height="120px">
+          <div class="top-left"><i class='fa fa-cloud' style='font-size:36px'></i></div>
+          <div class="card-body" >
+            <h5 class="card-title text-center">Actual Temp: 32 C</h5>
+            <h5 class="card-title text-center">Min. 19 C</h5>
+            <h5 class="card-title text-center">Max. 36 C</h5>
+            <hr>
+            <h5 class="card-title text-center">Cloudy</h5>
+            <hr>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-2">
+        <h5 class="card-title text-center">Wed Jun 8</h5>
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="./assets/img/cloudy.png" alt="Card image cap" width="173px" height="120px">
+          <div class="top-left"><i class='fa fa-sun-o' style='font-size:36px'></i></div>
+          <div class="card-body" >
+            <h5 class="card-title text-center">Actual Temp: 32 C</h5>
+            <h5 class="card-title text-center">Min. 19 C</h5>
+            <h5 class="card-title text-center">Max. 36 C</h5>
+            <hr>
+            <h5 class="card-title text-center">Cloudy</h5>
+            <hr>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-2">
+        <h5 class="card-title text-center">Wed Jun 8</h5>
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="./assets/img/rainy.png" alt="Card image cap" width="173px" height="120px">
+          <div class="top-left"><i class='fa fa-tint' style='font-size:36px'></i></div>
+          <div class="card-body" >
+            <h5 class="card-title text-center">Actual Temp: 32 C</h5>
+            <h5 class="card-title text-center">Min. 19 C</h5>
+            <h5 class="card-title text-center">Max. 36 C</h5>
+            <hr>
+            <h5 class="card-title text-center">Cloudy</h5>
+            <hr>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-2">
+        <h5 class="card-title text-center">Wed Jun 8</h5>
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="./assets/img/rainy.png" alt="Card image cap" width="173px" height="120px">
+          <div class="top-left"><i class='fa fa-tint' style='font-size:36px'></i></div>
+          <div class="card-body" >
+            <h5 class="card-title text-center">Actual Temp: 32 C</h5>
+            <h5 class="card-title text-center">Min. 19 C</h5>
+            <h5 class="card-title text-center">Max. 36 C</h5>
+            <hr>
+            <h5 class="card-title text-center">Cloudy</h5>
+            <hr>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-2">
+        <h5 class="card-title text-center">Wed Jun 8</h5>
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="./assets/img/snow.png" alt="Card image cap" width="173px" height="120px">
+          <div class="top-left"><i class='fa fa-snowflake-o' style='font-size:36px'></i></div>
+          <div class="card-body" >
+            <h5 class="card-title text-center">Actual Temp: 32 C</h5>
+            <h5 class="card-title text-center">Min. 19 C</h5>
+            <h5 class="card-title text-center">Max. 36 C</h5>
+            <hr>
+            <h5 class="card-title text-center">Cloudy</h5>
+            <hr>
+          </div>
+        </div>
+      </div>
+
+      
+
+ 
+     
+
+      
+       
+        </div>
+
+        <h1>Autocomplete Address Search Box using Google Maps Javascript API</h1>
+  
+<input id="searchMapInput" class="mapControls" type="text" placeholder="Enter a location">
+<ul id="geoData">
+    <li>Full Address: <span id="location-snap"></span></li>
+    <li>Latitude: <span id="lat-span"></span></li>
+    <li>Longitude: <span id="lon-span"></span></li>
+</ul>
+  
+<script>
+function initMap() {
+    var input = document.getElementById('searchMapInput');
+  
+    var autocomplete = new google.maps.places.Autocomplete(input);
+   
+    autocomplete.addListener('place_changed', function() {
+        var place = autocomplete.getPlace();
+        document.getElementById('location-snap').innerHTML = place.formatted_address;
+        document.getElementById('lat-span').innerHTML = place.geometry.location.lat();
+        document.getElementById('lon-span').innerHTML = place.geometry.location.lng();
+    });
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?libraries=places&callback=initMap" async defer></script>
+
+
+      </div>
+     
+    </div>
+  </div>
+</div>
+<script src="./assets/js/weatherapp.js"></script>
+
+<footer class="container-fluid">
+  <p>Footer Text</p>
+</footer>
+
 </body>
-
-
-
-    <script src="./Assets/js/weatherapp.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-
 </html>
