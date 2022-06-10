@@ -38,7 +38,7 @@ var Wdescription = $('#Wdescription')
                TempMax.text(`Max Temp: ${data['main']['temp_max']} F`)
                console.log(data['weather'][0]['icon'])
                Wdescription.text(data['weather'][0]['description'])
-               iconActual.attr("src", `http://openweathermap.org/img/wn/${data['weather'][0]['icon']}@2x.png`)
+               iconActual.attr("src", `https://openweathermap.org/img/wn/${data['weather'][0]['icon']}@2x.png`)
             });
 
         }
