@@ -11,19 +11,23 @@ var TempMin = $('#TempMin')
 var TempMax = $('#TempMax')
 var iconActual = $('#iconActual')
 var Wdescription = $('#Wdescription')
+var feelslike = $('#feelslike')
+var humidity = $('#humidity')
+var pressure = $('#pressure')
 
 
 
 
-    var $results = document.querySelector('.results');
-    //var appendToResult = $results.insertAdjacentHTML.bind($results, 'afterend');
-    var appendToResult
+var $results = document.querySelector('.results');
+var appendToResult
 
-//Teleport API Autocomplete
+//Teleport API Autocomplete city 
     TeleportAutocomplete.init('.my-input').on('change', function(value) {
         //appendToResult = JSON.stringify(value, null, 2)
         appendToResult = value
         if (value !== null){
+
+            
             console.log(value)
             var lat = value['latitude']
             var long = value['longitude']
@@ -36,7 +40,9 @@ var Wdescription = $('#Wdescription')
                TempActual.text(`Actual Temp: ${data['main']['temp']} F`)
                TempMin.text(`Min Temp: ${data['main']['temp_min']} F`)
                TempMax.text(`Max Temp: ${data['main']['temp_max']} F`)
-               console.log(data['weather'][0]['icon'])
+               feelslike.text(`Feels Like: ${data['main']['feels_like']}`)
+               humidity.text(`Humidity: ${data['main']['humidity']}`)
+               pressure.text(`Pressure: ${data['main']['pressure']}`)
                Wdescription.text(data['weather'][0]['description'])
                iconActual.attr("src", `https://openweathermap.org/img/wn/${data['weather'][0]['icon']}@2x.png`)
             });

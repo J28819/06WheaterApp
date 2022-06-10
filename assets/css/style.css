@@ -37,7 +37,8 @@ section {
 }
 
 .card-tops{
-  background-color: #f4f4f4;
+  margin: 3rem;
+  background-color: #e9e9e9;
   border: 3px solid #075fa7;
   border-bottom-left-radius: 15px;
   border-top-right-radius: 15px;
