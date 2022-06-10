@@ -27,7 +27,7 @@ section {
   position: relative;
   background-image: "./assets/img/cloudy.png";
   margin: 1rem;
-  background-color: #cccccc;
+  background-color: #eeeeee;
   border: 3px solid #075fa7;
   border-bottom-left-radius: 15px;
   border-top-right-radius: 15px;
@@ -37,7 +37,7 @@ section {
 }
 
 .card-tops{
-  background-color: #cccccc;
+  background-color: #f4f4f4;
   border: 3px solid #075fa7;
   border-bottom-left-radius: 15px;
   border-top-right-radius: 15px;
