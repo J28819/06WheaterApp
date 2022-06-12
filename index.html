@@ -32,11 +32,16 @@
 
       <hr>
       <ul class="nav nav-pills nav-stacked">
-        <li class="active"><a href="#section1">Save this Place --></a></li>
-        <li><a href="#section2">New York</a></li>
-        <li><a href="#section3">Atlanta</a></li>
-        <li><a href="#section3">Texas</a></li>
-      </ul><br>
+        <li class="active"><a href="#section1">Last Places Visited</a></li>
+      </ul>
+      <ul id="selectplaces"class="nav nav-pills nav-stacked">
+       
+      </ul>
+      
+      
+      
+      
+      <br>
     
     </div>
  
@@ -49,66 +54,46 @@
               <hr>
               <div class="panel-group">
                 <div class="panel panel-success text-center">
-                    <h2 id="Title"><small>New York</small></h2>
+                    <h2 id="Title"><small><--Type in the search the city that you want to see the weather</small></h2>
                 </div>
               </div>
               <div class="panel-group">
                 <div class="panel panel-success`">
                   <div class="panel-body">
-                    <img id="iconActual" class="" src="" style="background: white">
-                  <div class="row">
-
-                    <div class="col-md-4">
-
-                      <div class="card-body" >
-                        <ul>
-                          <li><h5 id="TempActual" class="card-title text-left">Actual Temp: 32 C</h5></li>
-                          <li><h5 id="TempMin" class="card-title text-left">Min. 19 C</h5></li>
-                          <li><h5 id="TempMax" class="card-title text-left">Max. 36 C</h5></li>
-                        </ul>
-                      </div>  
-                    </div>
-                    <div class="col-md-4">
-                      <div class="card-body" >
-                        <ul>
-                          <li><h5 id="feelslike" class="card-title text-left">Actual Temp: 32 C</h5></li>
-                          <li><h5 id="humidity" class="card-title text-left">Min. 19 C</h5></li>
-                          <li><h5 id="pressure" class="card-title text-left">Max. 36 C</h5></li>
-                        </ul>
-                      </div>  
-                    </div>
-                    <div class="col-md-4">
-                      <div class="card-body" >
-                        <img class="card-img" src="./assets/img/cloudy.png" alt="Weather Img" width="173px" height="120px">
-                       
-                      </div>  
-                    </div>
-
-
-                  </div>
-                  <hr>
-                  <h5 id="Wdescription" class="card-title text-center">Cloudy</h5>
-                  <hr>
-
                     
-                   
-
-
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="card-body" >
+                        <ul>
+                          <li style="list-style: none"><h5 id="TempActual" class="card-title text-left"></h5></li>
+                          <li style="list-style: none" ><h5 id="TempMin" class="card-title text-left"></h5></li>
+                          <li style="list-style: none" ><h5 id="TempMax" class="card-title text-left"></h5></li>
+                        </ul>
+                      </div>  
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card-body" >
+                        <ul>
+                          <li style="list-style: none" ><h5 id="feelslike" class="card-title text-left"></h5></li>
+                          <li style="list-style: none" ><h5 id="humidity" class="card-title text-left"></h5></li>
+                          <li style="list-style: none" ><h5 id="pressure" class="card-title text-left"></h5></li>
+                        </ul>
+                      </div>  
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card-body" >
+                        <img id="iconActual" class="" src="" style="background: rgb(198, 196, 196)"> 
+                      </div>  
+                    </div>
                   </div>
-                  
+                  <hr>
+                  <h5 id="Wdescription" class="card-title text-center">J28819/WeatherApp is an example how to use API calls and integrate the information</h5>
+                  <hr>
+                  </div>
                 </div>
               </div>
-          
-             
-
               <hr>
-            
               </div>
-
-            
-            
-            
-
           </div>
 
           
@@ -118,109 +103,21 @@
       <hr>
 
       <div class="panel-body">
-      <h2>5 Days Forecast</h2>
-      <h4>June 05 07</h4>
-    
-    <i class="fa fa-cloud" aria-hidden="true"></i>\
-    <i class="fa fa-sun-o" aria-hidden="true"></i>\
-    <i class="fa fa-snowflake-o" aria-hidden="true"></i>\
-    <i class="fa fa-tint" aria-hidden="true"></i>
+      <h2>4 Days Forecast</h2>
   </div>
   </div>
-
-  
-      <div class="row">
-
-      <div class="col-sm-2">
-        <h5 class="card-title text-center">Wed Jun 8</h5>
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="./assets/img/sunny.png" alt="Card image cap" width="173px" height="120px">
-          <div class="top-left"><i class='fa fa-cloud' style='font-size:36px'></i></div>
-          <div class="card-body" >
-            <h5 class="card-title text-center">Actual Temp: 32 C</h5>
-            <h5 class="card-title text-center">Min. 19 C</h5>
-            <h5 class="card-title text-center">Max. 36 C</h5>
-            <hr>
-            <h5 class="card-title text-center">Cloudy</h5>
-            <hr>
-          </div>
+      <div id="forecast" class="row">
         </div>
       </div>
-
-      <div class="col-sm-2">
-        <h5 class="card-title text-center">Wed Jun 8</h5>
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="./assets/img/cloudy.png" alt="Card image cap" width="173px" height="120px">
-          <div class="top-left"><i class='fa fa-sun-o' style='font-size:36px'></i></div>
-          <div class="card-body" >
-            <h5 class="card-title text-center">Actual Temp: 32 C</h5>
-            <h5 class="card-title text-center">Min. 19 C</h5>
-            <h5 class="card-title text-center">Max. 36 C</h5>
-            <hr>
-            <h5 class="card-title text-center">Cloudy</h5>
-            <hr>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-2">
-        <h5 class="card-title text-center">Wed Jun 8</h5>
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="./assets/img/rainy.png" alt="Card image cap" width="173px" height="120px">
-          <div class="top-left"><i class='fa fa-tint' style='font-size:36px'></i></div>
-          <div class="card-body" >
-            <h5 class="card-title text-center">Actual Temp: 32 C</h5>
-            <h5 class="card-title text-center">Min. 19 C</h5>
-            <h5 class="card-title text-center">Max. 36 C</h5>
-            <hr>
-            <h5 class="card-title text-center">Cloudy</h5>
-            <hr>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-2">
-        <h5 class="card-title text-center">Wed Jun 8</h5>
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="./assets/img/rainy.png" alt="Card image cap" width="173px" height="120px">
-          <div class="top-left"><i class='fa fa-tint' style='font-size:36px'></i></div>
-          <div class="card-body" >
-            <h5 class="card-title text-center">Actual Temp: 32 C</h5>
-            <h5 class="card-title text-center">Min. 19 C</h5>
-            <h5 class="card-title text-center">Max. 36 C</h5>
-            <hr>
-            <h5 class="card-title text-center">Cloudy</h5>
-            <hr>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-2">
-        <h5 class="card-title text-center">Wed Jun 8</h5>
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="./assets/img/snow.png" alt="Card image cap" width="173px" height="120px">
-          <div class="top-left"><i class='fa fa-snowflake-o' style='font-size:36px'></i></div>
-          <div class="card-body" >
-            <h5 class="card-title text-center">Actual Temp: 32 C</h5>
-            <h5 class="card-title text-center">Min. 19 C</h5>
-            <h5 class="card-title text-center">Max. 36 C</h5>
-            <hr>
-            <h5 class="card-title text-center">Cloudy</h5>
-            <hr>
-          </div>
-        </div>
-      </div>
-        </div>
-      </div>
-     
     </div>
   </div>
 </div>
-<script src="./assets/js/teleport-autocomplete.js"></script>
+<script src="./assets/dist/teleport-autocomplete.js"></script>
 <script src="./assets/js/weatherapp.js"></script>
+<script src="./assets/js/localstorage.js"></script>
 
 <footer class="container-fluid">
-  <p>lelj28819@gmail</p>
+  <p>J28819/WeatherApp</p>
 </footer>
 
 </body>

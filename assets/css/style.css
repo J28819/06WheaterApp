@@ -22,6 +22,7 @@ section {
   left: 16px;
 }
 
+
   /* Set black background color, white text and some padding */
 .card {
   position: relative;
@@ -42,9 +43,15 @@ section {
   border: 3px solid #075fa7;
   border-bottom-left-radius: 15px;
   border-top-right-radius: 15px;
-  
+}
 
 
+
+
+
+
+#day1{
+  display: none;
 }
 
 

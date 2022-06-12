@@ -1,71 +1,94 @@
-
-	[
-       {
-        "tripID": "London",
-        "data": [
-            {
-                "name": "Visit UK",
-                "startDate": "June 7th 2022",
-                "duration": 4,
-                "cityName": "London",
-                "weatherforecast": {
-                    "cod": "200",
-                    "message": 0.0179,
-                    "cnt": 96,
-                    "list": [
-                     {
-                       "dt": 1596632400,
-                       "main": {
-                         "temp": 289.16,
-                         "feels_like": 288.41,
-                         "temp_min": 289.16,
-                         "temp_max": 289.16,
-                         "pressure": 1013,
-                         "sea_level": 1013,
-                         "grnd_level": 1010,
-                         "humidity": 78,
-                         "temp_kf": 0
-                       },
-                       "weather": [
-                         {
-                           "id": 804,
-                           "main": "Clouds",
-                           "description": "overcast clouds",
-                           "icon": "04n"
-                         }
-                       ],
-                       "clouds": {
-                         "all": 100
-                       },
-                       "wind": {
-                         "speed": 2.03,
-                         "deg": 252,
-                         "gust":5.46
-                       },
-                       "visibility": 10000,
-                       "pop": 0.04,
-                       "sys": {
-                         "pod": "n"
-                       },
-                       "dt_txt": "2020-08-05 13:00:00"
-                     }
-                    
-                         ],
-                    "city": {
-                     "id": 2643743,
-                     "name": "London",
-                     "coord": {
-                       "lat": 51.5085,
-                       "lon": -0.1258
-                     },
-                     "country": "GB",
-                     "timezone": 0,
-                     "sunrise": 1568958164,
-                     "sunset": 1569002733
-                    }
-                  }   
-            }
-        ]
-    }
+[
+    {
+      "title": "Birmingham, Alabama, United States",
+      "name": "Birmingham",
+      "geonameId": 4049979,
+      "latitude": 33.52066,
+      "longitude": -86.80249,
+      "population": 212461,
+      "country": "United States",
+      "admin1Division": "Alabama",
+      "admin1DivisionCode": "AL",
+      "tzOffsetMinutes": -300,
+      "uaName": "Birmingham, AL",
+      "uaId": "djfq8",
+      "uaCityUrl": "https://teleport.org/cities/birmingham-al/",
+      "uaSlug": "birmingham-al"
+    },
+  {
+    "title": "Puebla, Puebla, Mexico",
+    "name": "Puebla",
+    "geonameId": 3521081,
+    "latitude": 19.03793,
+    "longitude": -98.20346,
+    "population": 1590256,
+    "country": "Mexico",
+    "admin1Division": "Puebla",
+    "admin1DivisionCode": "21",
+    "tzOffsetMinutes": -300
+  },
+  {
+    "title": "Mexico City, Mexico City, Mexico",
+    "name": "Mexico City",
+    "geonameId": 3530597,
+    "latitude": 19.42847,
+    "longitude": -99.12766,
+    "population": 12294193,
+    "country": "Mexico",
+    "admin1Division": "Mexico City",
+    "admin1DivisionCode": "09",
+    "tzOffsetMinutes": -300,
+    "uaName": "Mexico City",
+    "uaId": "9g3w8",
+    "uaCityUrl": "https://teleport.org/cities/mexico-city/",
+    "uaSlug": "mexico-city"
+  },
+  {
+    "title": "Birmingham, Alabama, United States",
+    "name": "Birmingham",
+    "geonameId": 4049979,
+    "latitude": 33.52066,
+    "longitude": -86.80249,
+    "population": 212461,
+    "country": "United States",
+    "admin1Division": "Alabama",
+    "admin1DivisionCode": "AL",
+    "tzOffsetMinutes": -300,
+    "uaName": "Birmingham, AL",
+    "uaId": "djfq8",
+    "uaCityUrl": "https://teleport.org/cities/birmingham-al/",
+    "uaSlug": "birmingham-al"
+  },
+  {
+    "title": "Iztapalapa, Mexico City, Mexico",
+    "name": "Iztapalapa",
+    "geonameId": 3526683,
+    "latitude": 19.35529,
+    "longitude": -99.06224,
+    "population": 1820888,
+    "country": "Mexico",
+    "admin1Division": "Mexico City",
+    "admin1DivisionCode": "09",
+    "tzOffsetMinutes": -300,
+    "uaName": "Mexico City",
+    "uaId": "9g3w8",
+    "uaCityUrl": "https://teleport.org/cities/mexico-city/",
+    "uaSlug": "mexico-city"
+  },
+  {
+    "title": "Tijuana, Baja California, Mexico",
+    "name": "Tijuana",
+    "geonameId": 3981609,
+    "latitude": 32.5027,
+    "longitude": -117.00371,
+    "population": 1376457,
+    "country": "Mexico",
+    "admin1Division": "Baja California",
+    "admin1DivisionCode": "02",
+    "tzOffsetMinutes": -420,
+    "uaName": "San Diego",
+    "uaId": "9mudj",
+    "uaCityUrl": "https://teleport.org/cities/san-diego/",
+    "uaSlug": "san-diego"
+  }
 ]
-
