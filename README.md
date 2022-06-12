@@ -10,13 +10,13 @@ Index.html -> Contain all the code that will be processes by the browser to disp
 1. To clone the repository in your computer run this command.
 
 ```bash
-git clone git@github.com:J28819/06WheaterApp.git
+git clone https://github.com/J28819/06WheaterApp
 
 ```
 
 2. Then open it with Visual Code and run Live Server on the [index.html file.]
 
-3. You can Follow this link to see the live page in GitHub : https://j28819.github.io/05-GTBScheduler/
+3. You can Follow this link to see the live page in GitHub : https://j28819.github.io/06WheaterApp/
 
 
 ## Description
@@ -58,7 +58,7 @@ Autocomplete city
 
 ## Conclusion 
 
-This was a great way to use all the knowledge aquired in the bootcamp, Thanks for the Instructor Stanley and Tutors that make this Bootcamp awesome. definitly I'll take another Bootcamp with GT after this one. 
+ Thank you to all the GTBootcamp staff for all the support and teaching that makes this possible.
 
 
 ## License

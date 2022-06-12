@@ -1,7 +1,7 @@
 var APIKey = "85b081d82a8b2923ac904659cddb3896";
 var city = "London, uk";
-var ActualW = "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + APIKey;
-var ForecastW = "http://api.openweathermap.org/data/2.5/forecast?q=" + city + "&appid=" + APIKey;
+var ActualW = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + APIKey;
+var ForecastW = "https://api.openweathermap.org/data/2.5/forecast?q=" + city + "&appid=" + APIKey;
 var cordW = "https://api.openweathermap.org/data/2.5/forecast/daily?lat=57&lon=-2.15&appid=85b081d82a8b2923ac904659cddb3896"
 //var cordW = "https://api.openweathermap.org/data/2.5/forecast/daily?&appid=85b081d82a8b2923ac904659cddb3896"
 var Title = $('#Title')
@@ -191,7 +191,7 @@ function getWeather(value) {
     $.ajax({
         
         //url: `https://pro.openweathermap.org/data/2.5/forecast/hourly?lat=${lat}&lon=${long}&appid=85b081d82a8b2923ac904659cddb3896&units=imperial`
-        url: `http://api.openweathermap.org/data/2.5/forecast?q=${cityname}&appid=${APIKey}&units=imperial`
+        url: `https://api.openweathermap.org/data/2.5/forecast?q=${cityname}&appid=${APIKey}&units=imperial`
     }).then(function(data) {
         if (data !== null){
             $('#day1').attr("style", "display: True")
